@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Singh's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Rohit Singh</div>
+        <ul class="nav-links">
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+    </nav>
+    <ul class="menu-links">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <section id="profile">
+        <div class="section__pic-container"></div>
+        <p class="section__text__p1">Hello, my name is</p>
+        <h1 class="title">Rohit Singh</h1>
+        <p class="section__text__p2">I am currently a 2nd year B.Tech student</p>
+        <div class="btn-container">
+            <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Me</button>
+            <button class="btn btn-color-2" onclick="location.href='#projects'">View Projects</button>
+        </div>
+        <div id="socials-container">
+            <a href="https://www.linkedin.com/in/rohit-singh-ba2b9228b/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:rohit1303iitk@gmail.com">
+                <i class="far fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know</p>
+        <h1 class="title">About Me</h1>
+        <div class="about-containers">
+            <div class="section__pic-container"></div>
+            <div class="details-container">
+                <h3>Skills</h3>
+                <div class="skills-container">
+                    <div class="skill-box">C++</div>
+                    <div class="skill-box">Python</div>
+                    <div class="skill-box">Java</div>
+                    <div class="skill-box">Machine Learning</div>
+                    <div class="skill-box">GitHub</div>
+                    <div class="skill-box">PowerPoint</div>
+                    <div class="skill-box">Excel</div>
+                </div>
+            </div>
+            <div class="details-container">
+                <h3>Education</h3>
+                <p>B.Tech in Electrical Engineering, IIT Kanpur</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="section-container">
+            <div class="details-container color-container">
+                <div class="article-container"></div>
+                <h2 class="experience-sub-title project-title">Handwritten Digit Recognition</h2>
+                <p>Creating a model that can recognize handwritten digits (0-9) based on pixel values of images, commonly used in applications like postal code recognition.</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container"></div>
+                <h2 class="experience-sub-title project-title">Movie Recommendation</h2>
+                <p>Building a basic movie recommendation system that suggests movies to users based on their past viewing history or ratings given to other movies.</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <i class="far fa-envelope"></i>
+                <p><a href="mailto:rohit1303iitk@gmail.com">rohit1303iitk@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fab fa-linkedin"></i>
+                <p><a href="https://www.linkedin.com/in/rohit-singh-ba2b9228b/" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>&#169; 2024 Rohit Singh. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
